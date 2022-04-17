@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         // Remove the debug banner
         debugShowCheckedModeBanner: false,
-        title: 'Kindacode.com',
+        title: 'task arranger',
         theme: ThemeData(
-          primarySwatch: Colors.orange,
+          primarySwatch: Colors.blue,
         ),
         home: const HomePage());
   }
