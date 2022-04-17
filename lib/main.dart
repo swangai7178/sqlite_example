@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         // Remove the debug banner
         debugShowCheckedModeBanner: false,
-        title: 'task arranger',
+        title: 'sam arranger',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
