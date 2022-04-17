@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'sam arranger',
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.red,
         ),
         home: const HomePage());
   }
@@ -155,7 +155,7 @@ class _HomePageState extends State<HomePage> {
           : ListView.builder(
               itemCount: _journals.length,
               itemBuilder: (context, index) => Card(
-                color: Colors.orange[200],
+                color: Color.fromARGB(255, 255, 255, 255),
                 margin: const EdgeInsets.all(15),
                 child: ListTile(
                     title: Text(_journals[index]['title']),
